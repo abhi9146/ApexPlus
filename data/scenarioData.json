@@ -1,0 +1,51 @@
+[
+  {
+    "scenarioName": "updated first",
+    "scenarioTime": "5",
+    "vehicles": [
+      {
+        "name": "updated first",
+        "vehicleName": "ewf",
+        "speed": "1",
+        "positionX": "40",
+        "positionY": "40",
+        "direction": "upwards"
+      },
+      {
+        "name": "updated first",
+        "vehicleName": "abhi",
+        "speed": "3",
+        "positionX": "30",
+        "positionY": "20",
+        "direction": "upwards"
+      },
+      {
+        "name": "updated first",
+        "vehicleName": "third",
+        "speed": "5",
+        "positionX": "55",
+        "positionY": "10",
+        "direction": "forwards"
+      }
+    ]
+  },
+  {
+    "scenarioName": "second updated",
+    "scenarioTime": "10",
+    "vehicles": [
+      {
+        "name": "second updated",
+        "vehicleName": "asdf",
+        "speed": "2",
+        "positionX": "10",
+        "positionY": "50",
+        "direction": "upwards"
+      }
+    ]
+  },
+  {
+    "scenarioName": "third",
+    "scenarioTime": "7",
+    "vehicles": []
+  }
+]

@@ -1,0 +1,230 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 200vh;
+}
+
+.Sidebar{
+ width: 20%;
+ height: 100%;
+ background-color: #C1C8D2;
+ color: black;
+ font-weight: bold;
+}
+.Sidebar-list{
+  text-decoration: none;
+  color:inherit;
+}
+.Sidebar li{
+  margin-bottom: 1.5rem;
+}
+.Sidebar ul {
+  list-style-type: none;
+  padding: 1.5rem; 
+}
+
+.right-section{
+  background-color: #1E1E1E;
+  width: 100%;
+  color:white;
+}
+
+.AddScenario{
+  padding: 2rem;
+}
+.scenarioPath{
+  padding-bottom: 2rem;
+  font-size: 16px;
+}
+.Scenario-heading{
+  font-size: 20px;
+  font-weight: bold;
+}
+.Scenario-body {
+ width: 90%; 
+ padding: 10px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ box-sizing: border-box; 
+ border: 1px solid #ccc; 
+ background-color: #333333;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+.inputs{
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 20px; 
+}
+.inputs label {
+ margin-bottom: 5px; 
+}
+
+.inputs input{
+ min-width: 20%;
+ padding: 10px; 
+ border-radius: 5px; 
+ border: 1px solid #ccc; 
+ background-color: #1E1E1E; /* Change background color to black */
+ color: white; /* Change text color to white */
+ font-size: 15px;
+}
+
+.button {
+ display: inline-block;
+ padding: 7px 17px;
+ font-size: 14px;
+ text-align: center;
+ text-decoration: none;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ margin-right: 10px;
+}
+/* *************** All Scenario section ************************* */
+.AllScenario-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.allScenario-body {
+  overflow-x: auto;
+}
+
+.scenario-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scenario-table th,
+.scenario-table td {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: left;
+}
+
+.scenario-table thead {
+  background-color: black;
+  color: white;
+}
+
+.scenario-table tbody {
+  background-color: white;
+  color: black;
+}
+
+.scenario-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.scenario-table tbody tr:hover {
+  background-color: #ddd;
+}
+/* ************** Vehicle section ********************* */
+
+.Vehicle-body{
+  width: 90%; 
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box; 
+  border: 1px solid #ccc; 
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.direction{
+ padding-top: 0.5rem;
+ padding-bottom: 0.5rem;
+ padding-right: 1.5rem;
+ padding-left: 1.5rem; 
+ border-radius: 5px; 
+ border: 1px solid #ccc; 
+ background-color: #1E1E1E; /* Change background color to black */
+ color: white; /* Change text color to white */
+ font-size: 16px;
+ width: 13rem;
+}
+
+.plus {
+  --b: 4px; /* the thickness */
+  width: 15px; /* the size */
+  aspect-ratio: 1;
+  border: 10px solid #000; /* the outer space */
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#000 90deg,#fff 0) 
+    calc(100% + var(--b)/2) calc(100% + var(--b)/2)/
+    calc(50%  + var(--b))   calc(50%  + var(--b));
+  display: inline-block;
+}
+.radius {
+  border-radius: 50%;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem; /* Adjust the font size as needed */
+}
+
+/* ***************** Home section ************************* */
+.Home{
+   padding: 2rem;
+   display: flex;
+   flex-direction: column;
+}
+.Home-header{
+  margin-bottom: 0.8rem;
+}
+.Home-heading{
+  margin-bottom: 0.8rem;
+}
+.Home-buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.8rem;
+}
+
+.grid-container {
+  overflow: auto;
+  height: 130vh; /* Adjust the height as needed */
+  width: 160vh;
+}
+
+.viewport {
+  width: auto;
+  overflow-x: scroll;
+  overflow-y: auto;
+}
+
+
+.grid-row {
+  display: flex;
+}
+
+.grid-square {
+  width: 30px;
+  height: 20px;
+  border: 1px solid green;
+}
+
+.vehicle-marker {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  border-radius: 50%;
+}
+
+

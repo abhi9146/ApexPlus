@@ -1,0 +1,20 @@
+{
+  "vehicles": [
+    {
+      "scenarioList": "vcb",
+      "vehicleName": "sfdgn",
+      "speed": "2",
+      "positionX": "34",
+      "positionY": "24",
+      "direction": "upwards"
+    },
+    {
+      "scenarioList": "Test 2",
+      "vehicleName": "abhi",
+      "speed": "2",
+      "positionX": "100",
+      "positionY": "100",
+      "direction": "towards"
+    }
+  ]
+}
